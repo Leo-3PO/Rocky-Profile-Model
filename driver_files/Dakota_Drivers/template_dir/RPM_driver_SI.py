@@ -22,7 +22,7 @@ print (sys.argv[2])
 print (os.getcwd())
 
 Gradient = 1
-TidalRange = 8
+TidalRange = 1.655
 SubtidalEfficacy = 0.005
 #WaveAttenuationConst = 0.01
 
