@@ -234,7 +234,7 @@ int main(int nNumberofArgs,char *argv[])
 		
 	//Initialise Waves
 	//Single Wave for now but could use the waveclimate object from COVE!?
-	double WaveHeight_Mean = 3.;
+	double WaveHeight_Mean = 2.3;
 	double WaveHeight_StD = 0.;
 	double WavePeriod_Mean = 6.;
 	double WavePeriod_StD = 0;
