@@ -190,11 +190,14 @@ int main(int nNumberofArgs,char *argv[])
 	string OutputFileName = Folder+DakotaFilename+"_ShoreProfile.xz";
 	string OutputConcentrationFileName = Folder+DakotaFilename+"Concentrations.xn";
 	
+	cout << "before the sea level curve = " << endl;
 
     // initialise sea level here and calculate MinElevation based on lowest sea level
 	// Initialise Sea level from datafile
 	//string RelativeSeaLevelFile = "CB_RSL.data";
 	SeaLevel RelativeSeaLevel = SeaLevel(RelativeSeaLevelFile);
+
+	cout << "after the sea level curve = " << endl;
 	
 	// Get initial sea level
 	double InstantSeaLevel = RelativeSeaLevel.get_SeaLevel(Time);
